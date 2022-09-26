@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Hospedagem</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+ <header class="container-fluid bg-dark p-4 text-light ">
+        <h1>Cadastro Hospedagem</h1>
+    </header>
+
+<div class="container p-4 me-9">
+
+<form class="row g-3" action="../../CadastroHosp">
+  <div class="col-md-4">
+    <label for="nome" class="form-label">Nome Hospedagem</label>
+    <input type="text" class="form-control " name="nomeHosp" id="nomeHosp" value="" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="nome" class="form-label">Cidade</label>
+    <input type="text" class="form-control " name="cidade" id="cidade" value="" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  
+  
+  <div class="col-md-3">
+    <label for="nome" class="form-label">Estado </label>
+    <input type="text" class="form-control "  name="estado" id="estado" aria-describedby="validationServer06Feedback" required>
+    <div id="validationServer04Feedback" class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  
+ 
+  
+  <div class="col-md-6">
+    <label for="nome" class="form-label">Rua </label>
+    <input type="text" class="form-control "  name="rua" id="rua" aria-describedby="validationServer07Feedback" required>
+    <div id="validationServer07Feedback" class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  
+  
+ 
+  <div class="col-12">
+    <button class="btn btn-dark" type="submit">Enviar</button>
+  	<a href="../../hospedagem" class="btn btn-danger" style="margin-left: 10px"> Cancelar </a>
+  </div>
+  
+</form>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
